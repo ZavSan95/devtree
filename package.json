@@ -1,0 +1,29 @@
+{
+  "name": "devtree",
+  "version": "1.0.0",
+  "description": "Primer proyecto con Express y Typescript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZavSan95/devtree.git"
+  },
+  "author": "Santiago Zavatti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZavSan95/devtree/issues"
+  },
+  "homepage": "https://github.com/ZavSan95/devtree#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
